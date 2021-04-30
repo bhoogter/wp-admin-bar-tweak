@@ -1,4 +1,5 @@
 === Admin Bar Pages ===
+
 Contributors: bhoogterp
 Version: 1.0.0
 Donate link: http://www.churchofthebeyond.com/
