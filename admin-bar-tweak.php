@@ -148,6 +148,7 @@ function pages_menu_tree($id = 0)
 //print "<br/>id=$id, parent=$P->parent, menu=$menu, title=$title\n";
 		}
 
+	$num = 0;
 	if ($id&&$P->menu_order) $num = "(".$P->menu_order. ") ";
 	$wp_admin_bar->add_menu( array(	'id' => $menu, 'title' => __( $num . $private . $title ), 'href' => $href, 'parent' => $parent ) );
 
